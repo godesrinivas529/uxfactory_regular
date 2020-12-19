@@ -1,0 +1,31 @@
+header{
+    background-color:darkgrey;
+    padding: 1px;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    padding: 5px;
+}
+footer{
+    background-color: rgb(95, 91, 91);
+    padding: 1px;
+    text-align: center;
+}
+div{
+    display: flex;
+    padding: 10px;
+}
+aside{
+    background-color: cornsilk;
+    padding: 10px;
+    
+}
+section{
+    padding: 10px;
+    background-color: darkcyan;
+}
+body{
+    background-color: darkslategrey;
+}

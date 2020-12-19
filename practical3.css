@@ -1,0 +1,35 @@
+body{
+    width: 70%;
+}  
+div{
+    display: flex;
+   }
+aside{
+        /*float: right;
+        width: 35.7%;
+        height: 100%;*/
+        padding: 5px;
+        background-color: rgb(152, 191, 248);
+    }
+section{
+       /* float: left;
+        width: 60%;*/
+         padding: 5px;
+        background-color: rgb(160, 255, 207);
+    }
+nav{
+    background-color: rgb(250, 92, 126);
+    padding: 3px;
+}
+footer{
+    background-color: wheat;
+    padding: 1px;
+}   
+header{
+    background-color: whitesmoke;
+    padding: 1px;
+}
+
+
+
+        
