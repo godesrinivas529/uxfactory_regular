@@ -1,0 +1,57 @@
+
+h1{
+    text-align: center;
+    text-indent: 5px;
+    text-shadow: 5px 2px  5px gray;
+   
+}
+body{
+    background-image: linear-gradient(white,lightblue,grey) ;
+    background-repeat: repeat-x;
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+div{
+    box-shadow: 5px 2px  5px gray;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.pink{
+    
+    background-color: pink;
+    border-radius: 10px;
+    
+}
+.grey{
+    
+    background-color: red;
+    border-radius: 10px;
+    
+}
+.blue{
+    
+    background-color: blue;
+    border-radius: 10px;
+}
+.green{
+    
+    background-color: green;
+    border-radius: 10px;
+}
+.yellow{
+    
+    background-color:yellow;
+    border-radius: 10px;
+}
+.orange{
+    
+    background-color: orange;
+    border-radius: 10px;
+}
