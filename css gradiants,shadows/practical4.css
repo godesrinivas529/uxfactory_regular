@@ -1,14 +1,16 @@
 
 h1{
     text-align: center;
-    text-indent: 5px;
+    text-indent: 25%;
     text-shadow: 5px 2px  5px gray;
    
 }
 body{
     background-image: linear-gradient(white,lightblue,grey) ;
     background-repeat: repeat-x;
-    border: 3px solid black;
+    
+    border: 3px solid;
+    border-color: red green yellow brown    ;
     margin: 10px;
     border-radius: 10px;
     
