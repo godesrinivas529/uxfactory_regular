@@ -1,0 +1,49 @@
+header{
+    
+    padding: 1px;
+    display: flex;
+    height: 10%;
+    
+}
+
+nav{   
+    padding: 5px;
+    margin: 40px;
+    text-align: center;
+    
+}
+img{
+    height:15%;
+    width: 15%;
+}
+.sec1img{
+    
+    width:1300px;
+   height: 400px;
+   margin: 1%;
+}
+.sectble{
+    display: flex;
+    margin: 40px;
+}
+.sec2img{
+    height:70% ;
+    width: 100%;
+}
+.tbclr{
+    background-color: rgb(8, 8, 8);
+}
+.tbclr1{
+    background-color: rgb(49, 47, 47);
+}
+.footer{
+    display: flex;
+    float: right;
+    margin: 10px;
+    width: 50%;
+}
+
+
+
+
+
