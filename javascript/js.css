@@ -1,0 +1,60 @@
+table{
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    border : 1px solid black;
+    padding : 10px;
+    
+
+}
+
+ol{
+    list-style-type: none;
+}
+ol li::before{
+   content: "\2022";
+   color: red;
+   display: inline-block;
+   width: 10px;
+}
+figcaption{
+    border: 2px dotted red;
+    border-radius: 10px;
+    outline: 2px solid darkgreen;
+    margin: 50px;
+    outline-offset: 5px;
+    padding: 15px;
+    text-align: justify ;
+    max-width: 250px;
+    height: 150px;
+    text-shadow: 2px 2px 5px red ;
+}
+.submit{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    width: 75px;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+.submit:hover{
+    color: blue;
+    background-color: chocolate;
+    opacity: 1.0;
+}
+.withOutBox{
+    border: 1px solid black;
+    width: 150px;
+    
+    height: 50px;
+    box-sizing: border-box;
+}
+.withBox{
+    border: 1px solid black;
+    width: 150px;
+    box-sizing:border-box ;
+    height: 50px;
+    
+    
+}

@@ -1,0 +1,56 @@
+header{
+    background-color: black;
+}
+.register{
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 45px;
+    background-color: white;
+    color: black;
+    border-color: black;
+    margin-left: 75%;
+}
+#guitar{
+    color:white;
+    margin: 15px;
+}
+.guitarspec{
+    color: white;
+}
+.bodymargin{
+    margin: 30px 70px 30px 70px;
+}
+#eventbanner{
+    width:1200px;
+    height: 200px;
+}
+.blog{
+height: 500px;
+width: 250px;
+border: 1px solid gray;
+display: inline-block;
+margin: 40px 15px 1px 28px;
+background-color: white;
+}
+.blogimage{
+    height: 230px;
+    width: 250px;
+}
+.blogdescription{
+    text-shadow: 3px 2px 3px yellowgreen;
+    font-size: 39px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin: 35px;
+    text-decoration: underline;
+}
+.subblog{
+    padding: 20px;
+}
+footer{
+    background-color: white;
+    height: 30px;
+    padding-top: 15px;
+}
+

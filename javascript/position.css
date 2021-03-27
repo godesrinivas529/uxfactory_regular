@@ -1,0 +1,17 @@
+/*.pos{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(99, 240, 99);
+    text-align: center;   
+    margin: 2px; 
+}*/
+.positn{
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    background-color: darkblue;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    
+}

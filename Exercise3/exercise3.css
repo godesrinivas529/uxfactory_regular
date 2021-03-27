@@ -1,0 +1,103 @@
+.title{
+    font-size: 25px;
+    padding: 7px; 
+    text-indent: 10%;
+    font-family: 'Times New Roman';
+}
+.cart{
+    text-indent:180px;
+    margin-top: 7px;
+    padding: 7px;
+    color: black;
+}
+nav{
+    padding-top: 8px;
+    background-color:whitesmoke;
+    box-shadow: 2px 2px 18px;
+}
+li a{
+    color: black;
+}
+.nav-li :hover{
+    color:white ;
+    background-color: yellowgreen;
+}
+.nav-li {  
+    list-style-type: none;
+    float: left;
+    padding:5px;
+}
+.searchbar{
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 20%;  
+}
+.carousel{
+    margin-top: 15px;
+    background-color: rgb(255, 153, 0);
+}
+.lumia620-img{
+    padding: 25px;
+    height: 250px;
+    width: 250px;  
+}
+.carousel-item-left {
+    padding-top: 110px;
+    float: right;  
+}
+.carousel-item-right{
+    padding-top: 110px;
+}
+.mobile-info{
+    color: white;
+    margin: 100px;
+}
+.shopNow{
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding:5px;
+    margin-top: 5px;
+}
+.iphone-blog,.windows-blog,.android-blog{
+    margin: auto;
+    margin-top: 2%;
+    background-color: skyblue;
+    color: white;
+}
+.windows-blog{
+    background-color: darkmagenta;
+}
+.android-blog{
+    background-color: green;
+}
+.apple-icon,.windows-icon,.android-icon{
+    margin: 25px;
+    font-size: 40px;  
+}
+.product-info{
+    padding-top: 2%;
+    font-size: large;
+    font-weight: bold;
+}
+.mobile-desc{
+    margin: auto;
+    margin-top: 2%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.mobile-img{
+    height: 110px;
+    width: 60px;
+}
+.price{
+    font-size: larger;
+    font-family: fantasy;
+}
+.addToCart{
+    background-color: darkmagenta;
+    color: white;
+}
+
+

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mobiles cart</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scope=1.0">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="exercise3.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="exercise3.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <p id="time"></p>
+        
+        <!--header-->
+        <header>
+            <div class="row">
+                <div class=" title col-sm-6">
+                    <p>Mobile Store</p>
+                    
+                </div>
+
+                <div class=" cart col-sm-6">
+                    <i class="fa fa-cart-plus" ><a href="#">&nbsp;shopping cart</a></i>
+                </div>
+                    
+                </div>
+            </div>
+        </header>
+
+        <!--nav-->
+        <nav>
+            
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul>
+                        <li class=" nav-li nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-li nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-li nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-li nav-item">
+                            <a class="nav-link" href="#">Store</a>
+                        </li>
+                        <li class="nav-li nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-li nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6">
+                    <form action="searchbar"><input class="searchbar"  type="text" name="search" id="search" placeholder="search"></form>
+                </div>
+            </div>
+        </nav>
+
+        <!--carousel-->
+        <section class="carousel">
+            <div class="row">
+                <div class="col-sm">
+                    <i class=" carousel-item-left fa fa-caret-left" ></i>
+                </div>
+
+                <div class=" col-sm-3">    
+                    <img class="lumia620-img" src="images/lumia.jfif" alt="lumia620">
+                </div>
+                
+                <div class="col-sm-3">
+                    <span class="mobile-info"><h3>Nokia Lumia 620 </h3>
+                        Nokia is the official phone partner for the 25th James Bond film, No Time To Die.
+                    </span>
+                    <form action="button"><input type="button" class="shopNow" value="Shop now!" onclick="shopNow()" ></form>  
+                </div>
+                <div class="col-sm">  
+                    <i class=" carousel-item-right fa fa-caret-right"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--Mobile-Brands-->
+        <section class="container">
+            <div class="row">              
+                <div class=" iphone-blog col-sm-3">
+                    <i class="apple-icon fab fa-apple">&nbsp;Iphone</i>                   
+                    <p>Powerful devices that enable you to do more. Stunning new colors.</p>
+                </div>
+
+                <div class=" windows-blog col-sm-3">
+                    <i class="windows-icon fab fa-windows">&nbsp;Windows</i>
+                    <p>Powerful devices that enable you to do more. Stunning new colors.</p>
+                </div>
+
+                <div class="android-blog col-sm-3">
+                    <i class="android-icon fab fa-android">&nbsp;Android</i>
+                    <p>Powerful devices that enable you to do more. Stunning new colors.</p>
+                </div>
+            </div>
+
+            <!--new products-->
+            <div class=" product-info row" onmouseover="newProducts()">
+                <div class="col-sm">
+                    New Products
+                </div>
+            </div>
+
+            
+            <div class="row" > 
+                <div class=" mobile-desc col-sm-3" >
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="mobile-img" src="images/oneplus-nord.jpg" alt="OnePlus-nord">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <h6>OnePlus-nord</h6>
+                            <span>Powerful devices that enable you to do more.</span>
+                            <p class="price">&#36;99.00</p>
+                            <button class="addToCart" onclick="addToCart()">Add to cart&nbsp;<i class="far fa-arrow-alt-circle-right"></i></button>
+                        </div>
+                    </div>                
+                </div>
+
+
+                <div class=" mobile-desc col-sm-3" >
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="mobile-img" src="images/iphone-x.jpg" alt="iphone-x">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <h6>Iphone-x</h6>
+                            <span>Powerful devices that enable you to do more.</span>
+                            <p class="price">&#36;85.00</p>
+                            <button class="addToCart" onclick="addToCart()">Add to cart&nbsp;<i class="far fa-arrow-alt-circle-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class=" mobile-desc col-sm-3" >
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="mobile-img" src="images/galaxy-s10.jpg" alt="galaxy-s10">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <h6>Galaxy-s10</h6>
+                            <span>Powerful devices that enable you to do more.</span>
+                            <p class="price">&#36;70.00</p>
+                            <button class="addToCart" onclick="addToCart()">Add to cart&nbsp;<i class="far fa-arrow-alt-circle-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <!--best sellers-->
+            <div class=" product-info row" onmouseover="bestSellers()">
+                <div class="col-sm">
+                   Best Sellers
+                </div>
+            </div>
+
+            <div class="row">
+                <div class=" mobile-desc col-sm-3" >
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="mobile-img" src="images/iphone-x.jpg" alt="iphone-x">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <h6>Iphone-x</h6>
+                            <span>Powerful devices that enable you to do more.</span>
+                            <p class="price">&#36;88.50</p>
+                            <button class="addToCart" onclick="addToCart()">Add to cart&nbsp;<i class="far fa-arrow-alt-circle-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class=" mobile-desc col-sm-3" ">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="mobile-img" src="images/OnePlus-7-Pro.jpg" alt="OnePlus-7-Pro">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <h6>OnePlus-7-Pro</h6>
+                            <span>Powerful devices that enable you to do more.</span>
+                            <p class="price">&#36;65.00</p>
+                            <button class="addToCart" onclick="addToCart()">Add to cart&nbsp;<i class="far fa-arrow-alt-circle-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" mobile-desc col-sm-3" >
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="mobile-img" src="images/oneplus-nord.jpg" alt="OnePlus-nord">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <h6>OnePlus-nord</h6>
+                            <span>Powerful devices that enable you to do more.</span>
+                            <p class="price">&#36;99.00</p>
+                            <button class="addToCart" onclick="addToCart()">Add to cart&nbsp;<i class="far fa-arrow-alt-circle-right"></i></button>
+                        </div>
+                    </div>
+                </div>  
+            </div>      
+            <!--from the blog-->
+            <div class=" product-info row">
+                <div class="col-sm-10">
+                   From the blog
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+
+        
+    </body>
+</html>

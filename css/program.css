@@ -1,0 +1,120 @@
+#textatt{
+    text-shadow: 3px 3px 3px gray;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;  
+}
+#multipleattributes{
+    border: 3px solid rgb(131, 93, 93);
+    margin: 35px;
+    padding: 10px;
+    width: 50%;
+    height: 70px;
+    outline: 3px solid rgb(68, 131, 68);
+    outline-offset: 15px;
+    text-align: justify;
+    color: red;
+    background-color: black;
+    overflow: scroll;
+    cursor: pointer;
+}
+#pseudoelements{
+    border: 3px solid rgb(131, 93, 93);
+    margin: 35px;
+    margin-top: 5%;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    outline: 3px solid rgb(68, 131, 68);
+    outline-offset: 15px;
+    text-align: justify;
+}
+#pseudoelements::selection{
+    color: white;
+    background-color: rgb(197, 223, 81);
+}
+#pseudoelements::first-line{
+    color: red;
+    font-size: larger;
+}
+#pseudoelements::first-letter{
+    color:green;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+.icons{
+    color: greenyellow;
+    font-size: 55px;
+    display: inline;
+    margin: 15px;
+}
+table,th,td{
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+    padding: 7px;
+    text-align: center;
+}
+table{
+    margin: auto;
+    width: 25%;
+}
+tr:nth-child(even){
+   background-color:  greenyellow;
+}
+tr:hover{
+    background-color: grey;
+}
+nav ol{
+    list-style-type: none;
+    max-width: 100%;
+    background-color:black;
+    font-size: x-large;
+    display: flex;
+    padding: 25px;
+}
+ a{
+    text-decoration: none;
+    width: 25%;
+    color: gold;  
+}
+li a:hover{
+    background-color: white;
+    color:black;
+}
+li form input{
+    padding: 2%;
+    border-radius: 10px ;
+}
+li form input:focus{
+    background-color: gray;
+}
+.search input{
+padding: 1%;
+margin-bottom: 10px;
+}
+.search{
+    border: 1px solid gray;
+    padding: 13px;
+    max-width: 30%;
+    height:150px;
+    background-color: gray;
+}
+input[type=submit]{
+    color: white;
+    
+    background-color: black;
+    padding: 6px;
+    width: 100px;
+    border-radius: 9px;
+    float: right;
+    
+
+}
+#multiplecolumns{
+    column-count: 3;
+    column-rule-style: double;
+}
